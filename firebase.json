@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "Onedeals",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

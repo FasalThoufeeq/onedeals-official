@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Onedeals</title>
+    <link href="assets/images/logo/One Deals New Logo.png" rel="icon" />
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <!--
+
+TemplateMo 570 Chain App Dev
+
+https://templatemo.com/tm-570-chain-app-dev
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css" />
+    <link rel="stylesheet" href="assets/css/animated.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/business-form.css" />
+  </head>
+
+  <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header
+      class="header-area header-sticky wow slideInDown"
+      data-wow-duration="0.75s"
+      data-wow-delay="0s"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <img
+                  src="assets/images/logo/One Deals New Logo.png"
+                  alt="Chain App Dev"
+                />
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="scroll-to-section">
+                  <a href="index.html#top" class="active">Home</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="index.html#services">Services</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="index.html#about">About</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="index.html#pricing">Package</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="index.html#newsletter">News</a>
+                </li>
+                <li>
+                  <div class="gradient-button">
+                    <a href="#" id="downloadBrochure"
+                      ><i class="fa-solid fa-file-arrow-down"></i> Brochure</a
+                    >
+                  </div>
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    <div
+      id="realestate-form"
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      "
+    >
+      <h1 style="margin: 15px">REAL ESTATE</h1>
+    </div>
+    <div class="container">
+      <div class="form-style-5">
+        <form id="realEstateForm">
+          <fieldset>
+            <legend><span class="number">1</span> Your Info</legend>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Your Name *"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email *"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <input
+                    type="text"
+                    name="number"
+                    id="number"
+                    placeholder="Your Number *"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <input
+                    type="text"
+                    name="address"
+                    id="address"
+                    placeholder="Current Address *"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <label for="transaction">Types of Transaction</label>
+                  <select id="transaction" name="transaction">
+                    <optgroup label="Please Select One">
+                      <option value="Sale">Sale</option>
+                      <option value="Purchase">Purchase</option>
+                      <option value="Rent/Lease">Rent/Lease</option>
+                    </optgroup>
+                  </select>
+                </div>
+                <div class="col-lg-6">
+                  <label for="property">Property Preferences</label>
+                  <select id="property" name="property">
+                    <optgroup label="Please Select One">
+                      <option value="House">House</option>
+                      <option value="Apartment">Apartment</option>
+                      <option value="Condo">Condo</option>
+                      <option value="Townhouse">Townhouse</option>
+                      <option value="Other">Other</option>
+                    </optgroup>
+                  </select>
+                </div>
+                <div class="col-lg-6">
+                  <label for="bedrooms">Number Of Bedrooms</label>
+                  <select id="bedrooms" name="bedrooms">
+                    <optgroup label="Please Select One">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4+">4+</option>
+                    </optgroup>
+                  </select>
+                </div>
+                <div class="col-lg-6">
+                  <label for="bathrooms">Number Of Bathrooms</label>
+                  <select id="bathrooms" name="bathrooms">
+                    <optgroup label="Please Select One">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4+">4+</option>
+                    </optgroup>
+                  </select>
+                </div>
+                <div
+                  class="col-lg-12"
+                  style="margin-top: 10px; margin-bottom: 20px"
+                >
+                  <label for="amenities" style="margin-bottom: 10px"
+                    >Preferred Amenities (if applicable)</label
+                  >
+                  <div
+                    style="display: flex; align-items: center; flex-wrap: wrap"
+                  >
+                    <input
+                      type="checkbox"
+                      id="parkingSpace"
+                      name="amenities"
+                      value="Parking Space"
+                      style="margin-right: 5px"
+                    />
+                    <label for="parkingSpace" style="margin-right: 15px"
+                      >Parking Space</label
+                    >
+
+                    <input
+                      type="checkbox"
+                      id="swimmingPool"
+                      name="amenities"
+                      value="Swimming Pool"
+                      style="margin-right: 5px"
+                    />
+                    <label for="swimmingPool" style="margin-right: 15px"
+                      >Swimming Pool</label
+                    >
+
+                    <input
+                      type="checkbox"
+                      id="gymFitnessCenter"
+                      name="amenities"
+                      value="Gym/Fitness Center"
+                      style="margin-right: 5px"
+                    />
+                    <label for="gymFitnessCenter" style="margin-right: 15px"
+                      >Gym/Fitness Center</label
+                    >
+
+                    <input
+                      type="checkbox"
+                      id="gardenYard"
+                      name="amenities"
+                      value="Garden/Yard"
+                      style="margin-right: 5px"
+                    />
+                    <label for="gardenYard" style="margin-right: 15px"
+                      >Garden/Yard</label
+                    >
+
+                    <input
+                      type="checkbox"
+                      id="otherAmenity"
+                      name="amenities"
+                      value="Other"
+                      style="margin-right: 5px"
+                    />
+                    <label for="otherAmenity" style="margin-right: 15px"
+                      >Other</label
+                    >
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <label for="transaction">Budget</label>
+                  <input
+                    type="text"
+                    id="minimum"
+                    name="minimum"
+                    placeholder="Minimum *"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <label for="transaction">Budget</label>
+                  <input
+                    type="text"
+                    id="maximum"
+                    name="maximum"
+                    placeholder="Maximum *"
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <label for="contact_method">Preferred Contact Method</label>
+                  <select id="contact_method" name="contact_method">
+                    <optgroup label="Please Select One">
+                      <option value="Phone">Phone</option>
+                      <option value="Email">Email</option>
+                      <option value="Text Message">Text Message</option>
+                    </optgroup>
+                  </select>
+                </div>
+                <div class="col-lg-6">
+                  <label for="contact_time">Preferred Time for Contact</label>
+                  <select id="contact_time" name="contact_time">
+                    <optgroup label="Please Select One">
+                      <option value="Morning">Morning</option>
+                      <option value="Afternoon">Afternoon</option>
+                      <option value="Evening">Evening</option>
+                    </optgroup>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend><span class="number">2</span> Additional Info</legend>
+            <div class="col-lg-12">
+              <label for="hear_about_us">How did you hear about us?</label>
+              <select id="hear_about_us" name="hear_about_us">
+                <optgroup label="Please Select One">
+                  <option value="Online Advertisement">
+                    Online Advertisement
+                  </option>
+                  <option value="Referral">Referral</option>
+                  <option value="Social Media">Social Media</option>
+                  <option value="Other">Other</option>
+                </optgroup>
+              </select>
+            </div>
+            <textarea
+              name="additional_comments"
+              placeholder="Additional Comments/Requirements"
+            ></textarea>
+          </fieldset>
+          <input type="submit" value="Apply" />
+        </form>
+      </div>
+    </div>
+
+    <footer id="newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="section-heading">
+              <h4>News &amp; Related Trend</h4>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-3">
+            <form id="search" action="#" method="GET">
+              <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                  <fieldset>
+                    <input
+                      type="address"
+                      name="address"
+                      class="email"
+                      placeholder="Email Address..."
+                      autocomplete="on"
+                      required
+                    />
+                  </fieldset>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  <fieldset>
+                    <button type="submit" class="main-button">
+                      Subscribe Now <i class="fa fa-angle-right"></i>
+                    </button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="footer-widget">
+              <h4>Contact Us</h4>
+              <p>
+                Hennur Main Rd, HBR Layout 2nd Block, Stage1, Bengaluru,
+                Karnataka 560084
+              </p>
+              <p><a href="#">+91 9072552100</a></p>
+              <p><a href="#">info@onedeals.com</a></p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer-widget">
+              <h4>About Us</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Packages</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer-widget">
+              <h4>Social Medias</h4>
+              <ul>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/one.deals?igsh=YTJydWdlODltMmE1"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/theonedealslive?mibextid=ZbWKwL"
+                    >Facebook</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer-widget">
+              <h4>About Our Company</h4>
+              <div class="logo">
+                <img
+                  src="assets/images/logo/One Deals New Logo white.png"
+                  alt=""
+                />
+              </div>
+              <p>
+                Innovating marketing strategies, driving business success.
+                Experts in digital, traditional, and experiential channels,
+                dedicated to exceeding client expectations. Passionate.
+                Creative. Results-driven.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="copyright-text">
+              <p>
+                Copyright © 2024 Onedeals. All Rights Reserved.
+                <br />Design:
+                <a href="https://onedeals.com" target="_blank">DNT</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/popup.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e712fc6fb5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <script>
+      document.getElementById("email").addEventListener("blur", function () {
+        if (!validateEmailFormat()) {
+          // Display a toast message if the email format is invalid
+          Toastify({
+            text: "Please enter a valid email address",
+            duration: 3000, // Duration in milliseconds
+            gravity: "top", // Display position
+            position: "center",
+            backgroundColor: "linear-gradient(to right, #ff9800, #ff5722)", // Background color
+          }).showToast();
+          event.preventDefault();
+          return;
+        }
+      });
+      document
+        .getElementById("realEstateForm")
+        .addEventListener("submit", function (event) {
+          validateEmailFormat();
+          if (!validateForm()) {
+            Toastify({
+              text: "Please fill in all the required fields",
+              duration: 3000,
+              gravity: "bottom",
+              position: "center",
+              backgroundColor: "linear-gradient(to right, #ff9800, #ff5722)",
+            }).showToast();
+            event.preventDefault();
+          } else {
+            event.preventDefault();
+            // var formData = new FormData(this);
+            var formDataObject = {};
+            var formElements = this.elements;
+            for (var i = 0; i < formElements.length; i++) {
+              var element = formElements[i];
+              var elementName = element.name;
+              var elementType = element.type;
+
+              // Handle different form elements
+              if (elementName) {
+                if (elementType === "checkbox") {
+                  // Handle checkboxes separately to get an array of selected values
+                  formDataObject[elementName] =
+                    formDataObject[elementName] || [];
+                  if (element.checked) {
+                    formDataObject[elementName].push(element.value);
+                  }
+                } else {
+                  // For other elements, simply get their values
+                  formDataObject[elementName] = element.value;
+                }
+              }
+            }
+            // formData.forEach(function (value, key) {
+            //   formDataObject[key] = value;
+            // });
+            console.log(formDataObject);
+
+            (function () {
+              emailjs.init("loARgRmXVBQ91yema");
+            })();
+
+            let serviceID = "service_8enuxsg";
+            let templateID = "template_06uoq6p";
+            let params = {
+              senderName: formDataObject?.name,
+              email: formDataObject?.email,
+              subject: "Enquiry for REAL ESTATE with requirements ",
+              phoneNumber: formDataObject?.number,
+              address: formDataObject?.address,
+              property: formDataObject?.property,
+              bedrooms: formDataObject?.bedrooms,
+              bathrooms: formDataObject?.bathrooms,
+              amenities: formDataObject?.amenities
+                ? formDataObject?.amenities
+                : "No Amenities available",
+              maximum: formDataObject?.maximum,
+              minimum: formDataObject?.minimum,
+              contact_method: formDataObject?.contact_method,
+              contact_time: formDataObject?.contact_time,
+              hear_about_us: formDataObject?.hear_about_us,
+              additional_comments: formDataObject?.additional_comments
+                ? formDataObject?.additional_comments
+                : "No Additional Comments Available",
+            };
+
+            emailjs.send(serviceID, templateID, params).then((res) => {
+              console.log("ooooo");
+              function showToast() {
+                Toastify({
+                  text: "Thank you! We will reach you soon.",
+                  duration: 3000,
+                  gravity: "bottom",
+                  position: "center",
+                  backgroundColor:
+                    "linear-gradient(to right, #00b09b, #96c93d)",
+                }).showToast();
+              }
+              showToast();
+            });
+          }
+        });
+
+      function validateForm() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var number = document.getElementById("number").value;
+        var address = document.getElementById("address").value;
+        var minimum = document.getElementById("minimum").value;
+        var maximum = document.getElementById("maximum").value;
+
+        return (
+          name.trim() !== "" &&
+          email.trim() !== "" &&
+          number.trim() !== "" &&
+          address.trim() !== "" &&
+          minimum.trim() !== "" &&
+          maximum.trim() !== ""
+        );
+      }
+      function validateEmailFormat() {
+        var email = document.getElementById("email").value;
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        console.log(emailRegex.test(email));
+        return emailRegex.test(email);
+      }
+    </script>
+  </body>
+</html>
